@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Segnale zone inquinate</title>
+    <!--fovicon-->
+    <link  rel = "icon"  href = "favicons/favicon-16x16.png"  type = "image /png" >
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!--public/JS-->
+    <script type="text/javascript" src="JS/my.js"></script>
+    <!--public/CSS-->
+    <link href="CSS/my.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+   <h1>Segnala posti inquinati nelle tue vicinanze </h1>
+
+   <div id="container">
+     <div id="form">
+       <!-- Reindirizza a /store-image tramite il metodo POST-->
+       <form action="/store-image" method="POST" enctype="multipart/form-data">
+
+         <p><%=(typeof alertMsg!='undefined')?alertMsg:''%></p>
+         <input type="file"  id="myfile" name="image" required>
+         </br>
+         <label>Indirizzo:</label>
+         <input type="text" id="ind" name="indirizzo" placeholder="Via Umberto I N63 Roma(RM)" value="" required>
+         <br>
+         <label>Lat:</label><input type="text"id="Lat" name="latitudine" value="">
+         <label>Long:</label><input type="text" id="Long" name="longitudine" value="">
+
+         <br>
+         <button type="submit" id='submit'>Update</button>
+        </form>
+      </div>
+
+      <br><br>
+
+      <div id="geo-list">
+       <button class='geo-list' id='geoloc'>Geolocalizza</button>
+       <br>
+       <button class='geo-list' id='lista'>Lista</button>
+       <br>
+       <button class='geo-list' id='delete'>Delete</button>
+      </div>
+
+    </div>
+    <h3>Lista dei luoghi segnalati</h3>
+    <div id='tab'>
+     <table id="table">
+        <thead>
+         <th>id</th>
+         <th>image_name</th>
+         <th>indirizzo</th>
+         <th>lat</th>
+         <th>lon</th>
+        </thead>
+
+       <tbody><td><td></tbody>
+
+      </table>
+    </div>
+
+   <div class="img" id="output"></div>
+
+
+
+   <script type="text/javascript" src="JS/lista.js"></script>
+   <script src="JS/geo.js"></script>
+  </body>
+</html>
