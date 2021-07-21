@@ -6,6 +6,7 @@
 body{
   display: block;
   background-color: #ccd7dc;
+  margin:auto ;
 }
 h1 ,h3{
   text-align: center;
@@ -86,4 +87,38 @@ table,th,td{
 }
 th,td{
   padding: 5px;
+}
+
+/*Smaller Smartphone and Tablet*/
+@media all and (max-width:550px) {
+  #container{
+    display: block;
+    margin: auto;
+   }
+  #form{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+  }
+  
+  #ind{
+     margin-top: 8px;
+  }
+
+  #Lat{
+    width: 130px;
+  }
+  #Long{
+    width: 130px;
+  }
+  #geo-list{
+    width: 100%;
+    margin-top:50px 50px;
+  }
+
+  .geo-list{
+    width: 100%;
+    font-size: 18px;
+  }
 }
