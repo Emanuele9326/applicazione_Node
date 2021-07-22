@@ -12,7 +12,7 @@
    <li><a href="#descrizione">Descrizione</a>
      <ul>
         <li><a href="#struttura-repository">Struttura Repository</a></li>
-        <li><a href="#download-e-testare-app-in-locale">Download e testare app in locale</a></li>
+        <li><a href="#Download-e-testare-app-in-locale">Download e testare app in locale</a></li>
       </ul>
     </li>
    <li><a href="#licenza">Licenza</a></li>
