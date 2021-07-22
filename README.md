@@ -57,21 +57,17 @@
     <ol>
    </details>
   </li>
-    
-    
-    <li>Cartella <b>routes</b></li>
-    <li>Cartella <b>views</b></li>
-    <li>file <b>.env</b></li>
-    <li>file <b>app.js</b></li>
-    <li>file <b>database.js</b></li>
-    <li>file <b>db-img-indirizzi.sql</b></li>
-     <li>file <b>package-lock.json</b></li>
-    <li>file <b>package.json</b></li>
-   
-  </ol>
-
+   <li>Cartella <b>routes</b></li>
+   <li>Cartella <b>views</b></li>
+   <li>file <b>.env</b></li>
+   <li>file <b>app.js</b></li>
+   <li>file <b>database.js</b></li>
+   <li>file <b>db-img-indirizzi.sql</b></li>     
+   <li>file <b>package-lock.json</b></li>
+   <li>file <b>package.json</b></li>
+ </ol>
 
  ####  Download e test dell'app in locale
-  
+
  ## Licenza
     Distribuito con licenza MIT. Vedere "LICENSE" per ulteriori informazioni.
