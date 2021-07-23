@@ -22,15 +22,16 @@
 <!-- Informazioni sul progetto-->
 ## Informazioni sul progetto
  La finalità di questo progetto è quella di realizzare una applicazione Node che aiuti a segnalare posti inquinati nelle vicinanze.
- L'app permette l'upload di foto per certificare l'inquinamento ambientale in atto , e l'indirizzo/posizione della stessa.
- L'applicazione fornisce un endpoint per poter visualizzare la lista di tutti i posti segnalati.
+ L'app permette l'upload di foto per certificare l'inquinamento ambientale in atto.L'applicazione fornisce un endpoint per poter 
+ visualizzare la lista di tutti i posti segnalati.
     
  L'app è dotata di un database, la sua funzionalità è quella di memorizzare: il nome dell'immagine , l'indirizzo e le coordinate del luogo dell'inquinamento.
  Per realizzare il database è stato utilizzato MySQL che fa parte dei sistemi di gestione di basi di dati relazionali più popolari al mondo .
  
- Per definizione MySQL è un DBMS(Database management system) relazionale. Cio significa che la gestione dei dati si basa su un modello di database tabellare. Tutti i dati che MySQL elabora vengono salvati nelle tabelle che si possono mettere in relazione tramite chiavi (keys)
+ Per definizione MySQL è un DBMS(Database management system) relazionale. Ciò significa che la gestione dei dati si basa su un modello di database tabellare. 
+ Tutti i dati che MySQL elabora vengono salvati nelle tabelle che si possono mettere in relazione tramite chiavi (keys)
  
- Per questa applicazione il database è costituito da una sola tabella images.
+ Per questo progetto il database è costituito da una sola tabella chiamata "images".
     
  Per ulteriore informazioni su MySQL visitare il link https://www.mysql.com/it/ 
     
@@ -40,6 +41,7 @@
  XAMPP è composto da Apache HTTP Server, MySQL(o MariaDB), PHP e Perl. La X iniziale fa riferimento al suo essere multipiattaforma: infatti compatibile con i sitemi operativi Windows, Linux, Mac .
     
  Cos'è Apache ? :
+ 
  Apache è un web server locale che in questa aplicazione permette di testare in locale tutti i servizi legati al database.
 
  (Per ulteriori informazioni e download visitare il link: https://www.apachefriends.org/it/index.html).
@@ -107,29 +109,30 @@
      
       ![](img-README/1.png)
       
-    Per questa applicazione ci interessa il servizio Apache che come gia detto in precedenza è un web server locale, e il servizio MySQL.
+    
+     Per questa applicazione ci interessa il servizio Apache che come gia detto in precedenza è un web server locale, e il servizio MySQL.
     
    *  Avviare i servizi Apache e MySql attraverso i pulsanti start.
     
       ![](img-README/animiertes-gif-von-online-umwandeln-de%20(1).gif)
    
    
-   *  Per creare il database bisogna raggiungere l'ambiente di sviluppo "phpAdmin". 
+   *  Per creare il database bisogna raggiungere l'ambiente di sviluppo "phpMyAdmin". 
       Utilizzando il pulsante "Admin" relativo al modulo MySql si aprirà in automatico il 
-      browser è verremo indirizzati alla pagina phpAdmin.
+      browser è verremo indirizzati alla pagina phpMyAdmin.
+      Dalla pagina principale di phpMyAdmin cliccare su importa.
+      Andare nella cartella del repository presente sul proprio dispositivo e caricare il file "db-img-indirizzi.sql" . 
+      Una volta caricato lasciare tutte le altre impostazioni invariate e cliccare su "Esegui".
+      In questo modo viene generato in locale un database con una struttura uguale a quella utilizzata in fase di progettazione dell'app.
       
       ![](img-README/34.gif)
     
-     Dalla paggina principale di phpAdmin cliccare su importa .
-     Andare nella cartella del repository presente sul proprio dispositivo e Caricare
-     il file db-img-indirizzi.sql 
-     Una volta caricato lasciare tutte le altre impostazioni invariate ed fare esegui.
-     In questo modo viene generato in locale un database con una struttura uguale a quella utilizzata in fase di progettazione dell'app.
+      
     
    *  Ora si può testare l'app.
       Aprire il la cartella del repository attraverso una shell (interprete dei comandi) ed eseguire il comando "npm start".
      
-     ![](img-README/shell.png)
+      ![](img-README/shell.png)
       
       Una volta che l'applicazione si è avviata aprire il browser ed andare al seguente 
       link: http://localhost:3000/
