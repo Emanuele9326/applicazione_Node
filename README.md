@@ -120,11 +120,10 @@
       
       ![](img-README/34.gif)
     
-     Dalla paggina principale di phpAdmin cliccare su importa .
-     Andare nella cartella del repository presente sul proprio dispositivo e Caricare
-     il file db-img-indirizzi.sql 
-     Una volta caricato lasciare tutte le altre impostazioni invariate ed fare esegui.
-     In questo modo viene generato in locale un database con una struttura uguale a quella utilizzata in fase di progettazione dell'app.
+      Dalla paggina principale di phpAdmin cliccare su importa.
+      Andare nella cartella del repository presente sul proprio dispositivo e Caricare il file db-img-indirizzi.sql 
+      Una volta caricato lasciare tutte le altre impostazioni invariate ed fare esegui.
+      In questo modo viene generato in locale un database con una struttura uguale a quella utilizzata in fase di progettazione dell'app.
     
    *  Ora si può testare l'app.
       Aprire il la cartella del repository attraverso una shell (interprete dei comandi) ed eseguire il comando "npm start".
