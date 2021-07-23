@@ -130,7 +130,7 @@
       
     
    *  Ora si può testare l'app.
-      Aprire il la cartella del repository attraverso una shell (interprete dei comandi) ed eseguire il comando "npm start".
+      Aprire la cartella del repository attraverso una shell (interprete dei comandi) ed eseguire il comando "npm start".
      
       ![](img-README/shell.png)
       
