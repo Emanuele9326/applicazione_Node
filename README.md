@@ -129,7 +129,7 @@
    *  Ora si può testare l'app.
       Aprire il la cartella del repository attraverso una shell (interprete dei comandi) ed eseguire il comando "npm start".
      
-     ![](img-README/shell.png)
+      ![](img-README/shell.png)
       
       Una volta che l'applicazione si è avviata aprire il browser ed andare al seguente 
       link: http://localhost:3000/
