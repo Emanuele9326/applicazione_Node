@@ -92,8 +92,8 @@
   L'app può essere testata in locale eseguendo i seguenti passaggi:
    <ol>
      <li>
-        Eseguire il download del repository
-        ![](img-README/animiertes-gif-von-online-umwandeln-de.gif)
+       Eseguire il download del repository
+       ![](img-README/animiertes-gif-von-online-umwandeln-de.gif)
       </li>
      <li>
        Installare le dipendeze che sono riportate nel file package.json 
