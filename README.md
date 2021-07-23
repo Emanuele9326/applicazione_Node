@@ -90,56 +90,46 @@
 
  ####  Download e testare app in locale
   L'app può essere testata in locale eseguendo i seguenti passaggi:
-   <ol>
-     <li>
-       Eseguire il download del repository
+
+   * Eseguire il download del repository
        ![](img-README/animiertes-gif-von-online-umwandeln-de.gif)
-      </li>
-     <li>
-       Installare le dipendeze che sono riportate nel file package.json 
+     
+   * Installare le dipendeze che sono riportate nel file package.json 
        ![](img-README/package.png)
-     </li>
-     <li>
-       Download di XAMPP al seguente link:https://www.apachefriends.org/it/index.html.
+     
+   * Download di XAMPP al seguente link:https://www.apachefriends.org/it/index.html.
        Installazione di XAMPP
        [Foto]
-    </li>
-    <li>
-      Aprire XAMPP.
+   * Aprire XAMPP.
       La schermata iniziale di XAMPP installato su un dispositivo con sistema operativo Windows10 si presenta in questo modo.
+     
       ![](img-README/1.png)
-      Per questa applicazione ci interessa il servizio Apache che come gia detto in precedenza è un web server locale, e il servizio MySQL.
-    </li>
-    <li>
-      Avviare i servizi Apache e MySql attraverso i pulsanti start. Bisogna prima avviare Apache e poi avviare MySQL
-      [Foto]
-    </li>
-    <li>
+      
+    Per questa applicazione ci interessa il servizio Apache che come gia detto in precedenza è un web server locale, e il servizio MySQL.
+    
+   *  Avviare i servizi Apache e MySql attraverso i pulsanti start.
+    
+      ![](img-README/animiertes-gif-von-online-umwandeln-de%20(1).gif)
+   
       Per creare il database bisogna raggiungere l'ambiente di sviluppo "phpAdmin". Utilizzando il pulsante "Admin" relativo al modulo MySql si aprirà in automatico il 
       browser è verremo indirizzati alla pagina phpAdmin.
       
       [foto2]
       
-     </li>
+    
      
-     <li>
        Dalla paggina principale di phpAdmin cliccare su importa .
        [foto]
-     </li>
-     <li>
+  
        Andare nella cartella del repository presente sul proprio dispositivo e Caricare il file db-img.indirizzi.sql 
        Una volta caricato lasciare tutte le altre impostazioni invariate ed fare esegui.
        In questo modo viene generato in locale un database con una struttura uguale a quella utilizzata in fase di progettazione dell'app.
-     </li>
-     <li>
+    
        Ora si può testare l'app.
        Aprire il terminale nella cartella del repository ed eseguire il comando "npm start".
-     </li>
-     <li>
+     
        Aprire il browser ed andare al seguente link:http://localhost:3000/
-     </li>
-   
-    </ol>
+     
 
  ## Licenza
     Distribuito con licenza MIT. Vedere "LICENSE" per ulteriori informazioni.
