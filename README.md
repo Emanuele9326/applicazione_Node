@@ -100,9 +100,9 @@
        ![](img-README/package.png)
      </li>
      <li>
-      Download di XAMPP al seguente link:https://www.apachefriends.org/it/index.html.
-      Installazione di XAMPP
-      [Foto]
+       Download di XAMPP al seguente link:https://www.apachefriends.org/it/index.html.
+       Installazione di XAMPP
+       [Foto]
     </li>
     <li>
       Aprire XAMPP.
