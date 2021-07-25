@@ -5,7 +5,6 @@ button.addEventListener('click', async function(){
   let data= await lista.json()
   console.log(data.data);
 
-
   loadHTMLTable(data.data);
 
   function loadHTMLTable(data){
