@@ -15,8 +15,6 @@ app.listen(port,()=>{
 
 app.use(corss());
 app.use(express.json());
-//app.use(express.urlencoded({extends:false}));
-
 
 //Static Files
 app.use(express.static('public'));
@@ -35,7 +33,7 @@ app.set('view engine','ejs');
 
 
 app.get('',(req,res)=>{
-  //esegue il rendering di una views
+  //rendering a views
   res.render('upload-form')
 });
 

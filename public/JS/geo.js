@@ -1,4 +1,4 @@
-//code geolocation --- button "Geolocation"
+//code geolocation --- button "Geolocalizza"
 let geoloco=document.getElementById("geoloc");
 
 geoloco.addEventListener("click",async function(){

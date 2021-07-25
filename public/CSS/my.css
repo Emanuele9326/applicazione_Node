@@ -82,7 +82,7 @@ label,input{
 }
 
 table,th,td{
-  border-collapse: collapse; /*imposta se i bordi della tabella devono essere comprimibili*/
+  border-collapse: collapse; 
   border:1px solid #000;
 }
 th,td{
