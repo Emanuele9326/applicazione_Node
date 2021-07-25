@@ -21,7 +21,7 @@
 
 <!-- Informazioni sul progetto-->
 ## Informazioni sul progetto
- La finalità di questo progetto è quella di realizzare una applicazione Node che aiuti a segnalare posti inquinati nelle vicinanze.
+ La finalità di questo progetto è quella di realizzare un'applicazione Node che aiuti a segnalare posti inquinati nelle vicinanze.
  L'app permette l'upload di foto per certificare l'inquinamento ambientale in atto.L'applicazione fornisce un endpoint per poter 
  visualizzare la lista di tutti i posti segnalati.
     
@@ -96,7 +96,7 @@
    * Eseguire il download del repository
        ![](img-README/animiertes-gif-von-online-umwandeln-de.gif)
      
-   * Installare le dipendeze che sono riportate nel file package.json 
+   * Installare le dipendenze che sono riportate nel file package.json 
        ![](img-README/package.png)
      
    
