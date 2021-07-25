@@ -89,6 +89,8 @@
    <li>file <b>package-lock.json</b></li>
    <li>file <b>package.json</b></li>
  </ol>
+    
+*  [Il file <b>db-img-indirizzi.sql</b> è il file di migrations per MySQL, in modo da poter ricostruire lo schema del DB.]
 
  ####  Download e testare app in locale
   L'app può essere testata in locale eseguendo i seguenti passaggi:
