@@ -118,7 +118,7 @@
    
    
    *  Per creare il database bisogna raggiungere l'ambiente di sviluppo "phpMyAdmin". 
-      Utilizzando il pulsante "Admin" relativo al modulo MySql. Si aprirà in automatico il 
+      Utilizzando il pulsante "Admin" relativo al modulo MySql, si aprirà in automatico il 
       browser è verremo indirizzati alla pagina phpMyAdmin.
       Dalla pagina principale di phpMyAdmin bisogna creare un nuovo database con il nome "db-img-indirizzi", dopo selezionare il database creato , successivamente cliccare su "importa".
       Andare nella cartella del repository presente sul proprio dispositivo e caricare il file "db-img-indirizzi.sql" . 
